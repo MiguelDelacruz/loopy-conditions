@@ -6,7 +6,11 @@
  * @param  { Number } b
  * @return { Number }
  */
-
+ var a = 3
+ var b = 2
+function greaterNumber ( a , b ) {
+	return a + b ;
+}
 
 /**
  * Create a function called 'stringOfNumbers'.
@@ -17,8 +21,10 @@
  * @param  { Number } n
  * @return { String }
  */
-
-
+var o = 7
+function stringOfNumbers( o ) {
+	return o 
+}
 /**
  * Create a function called 'sumOfArray'.
  * This function will take in a parameter that is an array.
@@ -27,6 +33,13 @@
  * @param  { array } arr
  * @return { Number }
  */
+function sumOfArrays () {
+	var arry = "7";
+	var arry2 = "3";
+	var arry3 = "5";
+
+	return arry + arry2 + arry3;
+}
 
 
 /**
@@ -37,6 +50,8 @@
  * @return { array }
  */
 
+function getEvens ()
+
 
 /**
  * Create a function called 'getOdds'.
@@ -45,7 +60,7 @@
  * @param  { array } arr
  * @return { array }
  */
-
+function getOdds () 
 
 /**
  * Create a function called 'calculate'.
@@ -61,3 +76,4 @@
  * @param  { String } operator ('add', subtract, 'multiply', 'divide')
  * @return { Number/String }
  */
+function calculate ( ,   , )
